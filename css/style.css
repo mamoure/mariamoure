@@ -1,0 +1,159 @@
+/* Fuente: Neue Haas Grotesk Medium */
+@font-face {
+    font-family: 'NeueHaasMedium';
+    src:
+        url('fonts/NeueHaasGroteskTextPro-Medium.woff2') format('woff2'),
+        url('fonts/NeueHaasGroteskTextPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fuente: Neue Haas Grotesk Regular */
+@font-face {
+    font-family: 'NeueHaasRegular';
+    src:
+        url('fonts/NeueHaasGroteskTextPro-Regular.woff2') format('woff2'),
+        url('fonts/NeueHaasGroteskTextPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* BODY */
+body {
+  margin: 1vw;
+  padding:0;
+  background-color: #ECECEC;
+}
+
+/* CONTENEDOR */
+.tabla {
+  width: 100%;
+}
+
+
+/* FILAS */
+.fila {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin-top: 0.2vw;
+  margin-bottom: 0.3vw;
+}
+
+.fila > div {
+  padding-right: 0.3vw; /* espacio interno a la derecha */
+}
+
+/* CABECERA */
+.header p {
+  font-family: 'NeueHaasRegular';
+  font-size: 10px;
+  color: #6F6F6E;
+  margin: 0; /* elimina margen de <p> por defecto */
+}
+
+/* TEXTO DE LAS FILAS QUE NO SEA EL HEADER */
+.fila:not(.header) p {
+  font-family: 'NeueHaasRegular';
+  font-size: 10px;
+  color: #6F6F6E;
+  margin: 0; /* elimina margen de <p> por defecto */
+}
+
+/* HOVER */
+.fila:not(.header):hover {
+  cursor: pointer;
+}
+
+/* SERVICIOS */
+.servicio-item {
+  display: inline;
+}
+
+.servicio-item:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* HERRAMIENTAS */
+.toolbox-item {
+  display: inline;
+  cursor: pointer;
+}
+
+.toolbox-item:hover {
+  font-family: 'NeueHaasMedium';
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+
+/* IMAGEN FLOTANTE */
+#preview {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 33vw;
+  height: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  xborder-radius: 12px;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  margin: 1vw;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); /* 9 columnas iguales */
+  box-sizing: border-box;
+  z-index: 1000; /* siempre encima de otros elementos */
+}
+.footer > div {
+  padding-right: 0vw; /* espacio interno a la derecha */
+}
+
+.footer div p {
+  font-family: 'NeueHaasRegular';
+  font-size: 10px;
+  color: #6F6F6E;
+  margin: 0; /* elimina margen de <p> por defecto */
+}
+
+.footer .span {
+  grid-column: span 2; /* ocupa las dos primeras columnas */
+}
+
+/* Footer arriba */
+.footer.sobre-mi-activo {
+  top: 0;
+  bottom: auto;
+  background-color: #ECECEC; /* opcional, para diferenciarlo */
+}
+
+/* Texto adicional debajo de "Sobre mí" */
+#sobre-mi-texto {
+  display: none;
+  font-family: 'NeueHaasRegular';
+  font-size: 10px;
+  color: #6F6F6E;
+  margin-top: 0.5vw;
+}
+
+.footer.sobre-mi-activo #sobre-mi-texto {
+  display: block;
+}
