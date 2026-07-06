@@ -38,17 +38,20 @@ body {
 .fila {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  margin-top: 0.2vw;
+  margin-top: 0.3vw;
   margin-bottom: 0.3vw;
 }
 
 .fila > div {
-  padding-right: 0.3vw; /* espacio interno a la derecha */
+  padding-right: 0.8vw; /* espacio interno a la derecha */
 }
+
+
+
 
 /* CABECERA */
 .header p {
-  font-family: 'NeueHaasRegular';
+  font-family: 'NeueHaasMedium';
   font-size: 10px;
   color: #6F6F6E;
   margin: 0; /* elimina margen de <p> por defecto */
@@ -66,6 +69,11 @@ body {
 .fila:not(.header):hover {
   cursor: pointer;
 }
+
+.fila:not(.header):hover p {
+  text-decoration: underline;
+}
+
 
 /* SERVICIOS */
 .servicio-item {
@@ -88,6 +96,17 @@ body {
   font-family: 'NeueHaasMedium';
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.tema-item {
+  display: inline;
+  cursor: pointer;
+}
+
+.tema-item:hover {
+  font-family: 'NeueHaasMedium';
+  background-color: black;
+  color: white;
 }
 
 
