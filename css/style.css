@@ -20,159 +20,492 @@
     font-display: swap;
 }
 
+/* Fuente: Neue Haas Grotesk Bold */
+@font-face {
+    font-family: 'NeueHaasBold';
+    src:
+        url('fonts/NeueHaasGroteskTextPro-Bold.woff2') format('woff2'),
+        url('fonts/NeueHaasGroteskTextPro-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fuente: PP Pangaia Bold */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Fuente: PP Pangaia Bold Italic */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* Fuente: PP Pangaia Medium */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Fuente: PP Pangaia Medium Italic */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* Fuente: PP Pangaia Ultralight */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-Ultralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Fuente: PP Pangaia Ultralight Italic */
+@font-face {
+    font-family: 'Pangaia';
+    src: url('fonts/PPPangaia-UltralightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Scroll animado */
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* BODY */
 body {
-  margin: 1vw;
-  padding:0;
-  background-color: #ECECEC;
+  margin: 0;
+  padding: 0;
 }
 
-/* CONTENEDOR */
-.tabla {
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+}
+
+
+/* INTRO */
+.intro {
+  padding: 2vw 2vw 2vw 2vw;
+  xbackground-color: red;
+}
+
+.intro-menu {
+  font-family: 'Pangaia', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: black;
+  margin:0;
+}
+
+.intro-texto {
+  font-family: 'Pangaia', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 25px;
+  color: black;
+  margin: 0;
+  padding-top: 2vw;
+}
+
+/* ARCHIVO */
+
+#archivo {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* TAGS */
+#tags-panel {
+  display: block;
+  padding: 4vw 2vw 2vw 2vw;
+  xbackground-color: orange;
+}
+
+#tags-list {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: column;
   width: 100%;
+}
+
+.tag-filtro {
+  font-family: 'NeueHaasMedium';
+  font-size: 12px;
+  color: #d2d1d1;
+  cursor: pointer;
+  padding-right: 0vw;
+  margin-bottom: 0vw;
+  width: fit-content;
+}
+
+.tag-filtro:hover {
+  background-color: black;
+  color: white;
+}
+
+.tag-filtro.activo {
+  background-color: black;
+  color: white;
+}
+
+
+
+/* TABLA */
+.tabla {
+  z-index: 2;
+  position: relative;
+  padding: 2vw 2vw 2vw 2vw;
+  xbackground-color: aqua;
 }
 
 
 /* FILAS */
 .fila {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  margin-top: 0.3vw;
-  margin-bottom: 0.3vw;
-}
-
-.fila > div {
-  padding-right: 0.8vw; /* espacio interno a la derecha */
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding-bottom: 1vw;
 }
 
 
+/* COLUMNA 1 — COORDENADAS */
+.col-coordenadas {
+    grid-column: 1;
+    padding-right: 1vw;
+}
 
 
-/* CABECERA */
+/* COLUMNA 2 — NOMBRE */
+.col-nombre {
+    grid-column: 2;
+    padding-right: 0.5vw;
+}
+
+
+/* COLUMNA 3 — TEMA */
+.col-tema {
+    grid-column: 3;
+    padding-right: 0.5vw;
+}
+
+
+/* COLUMNA 4 — SERVICIOS */
+.col-servicios {
+    grid-column: 4;
+    padding-right: 0.5vw;
+}
+
+
+/* COLUMNA 5 — TOOLBOX */
+.col-toolbox {
+    grid-column: 5;
+    padding-right: 0.5vw;
+}
+
+/* COLUMNA 6 — VACÍA */
+.col-año {
+    grid-column: 6;
+    padding-right: 0.5vw;
+}
+
+/* COLUMNAS 7 + 8 + 9 — DESCRIPCIÓN */
+.descripcion-proyecto {
+    grid-column: 7 / 10;
+    display: block;
+}
+
+
+
+/* TEXTO ENCABEZADO TABLA */
 .header p {
   font-family: 'NeueHaasMedium';
-  font-size: 10px;
-  color: #6F6F6E;
+  font-size: 12px;
+  color: black;
   margin: 0; /* elimina margen de <p> por defecto */
+  padding: 0vw 0vw 0vw 0vw;
 }
 
-/* TEXTO DE LAS FILAS QUE NO SEA EL HEADER */
+/* TEXTO TABLA */
 .fila:not(.header) p {
-  font-family: 'NeueHaasRegular';
-  font-size: 10px;
-  color: #6F6F6E;
+  font-family: 'NeueHaasMedium';
+  font-size: 14px;
+  color: black;
   margin: 0; /* elimina margen de <p> por defecto */
-}
 
-/* HOVER */
-.fila:not(.header):hover {
-  cursor: pointer;
 }
 
 .fila:not(.header):hover p {
-  text-decoration: underline;
+  color: #9d9d9d;
 }
 
-
-/* SERVICIOS */
-.servicio-item {
-  display: inline;
-}
-
-.servicio-item:hover {
-  background-color: black;
-  color: white;
-}
-
-
-/* HERRAMIENTAS */
-.toolbox-item {
-  display: inline;
-  cursor: pointer;
-}
-
-.toolbox-item:hover {
-  font-family: 'NeueHaasMedium';
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-
-.tema-item {
-  display: inline;
-  cursor: pointer;
-}
-
-.tema-item:hover {
-  font-family: 'NeueHaasMedium';
-  background-color: black;
-  color: white;
+.equipo-proyecto {
+  font-family: 'NeueHaasRegular';
+  font-size: 12px !important;
+  color: black;
+  margin-top: 0vw !important;
 }
 
 
 /* IMAGEN FLOTANTE */
 #preview {
   position: fixed;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  width: 33vw;
+  width: 40vw;
   height: auto;
+  left: 50%;
   opacity: 0;
   pointer-events: none;
+  transform: translateX(-50%);
   transition: opacity 0.3s ease;
+  z-index: 10;
 }
 
 #preview img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  xborder-radius: 12px;
-}
-
-/* FOOTER */
-.footer {
-  position: fixed;
-  margin: 1vw;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr); /* 9 columnas iguales */
-  box-sizing: border-box;
-  z-index: 1000; /* siempre encima de otros elementos */
-}
-.footer > div {
-  padding-right: 0vw; /* espacio interno a la derecha */
-}
-
-.footer div p {
-  font-family: 'NeueHaasRegular';
-  font-size: 10px;
-  color: #6F6F6E;
-  margin: 0; /* elimina margen de <p> por defecto */
-}
-
-.footer .span {
-  grid-column: span 2; /* ocupa las dos primeras columnas */
-}
-
-/* Footer arriba */
-.footer.sobre-mi-activo {
-  top: 0;
-  bottom: auto;
-  background-color: #ECECEC; /* opcional, para diferenciarlo */
-}
-
-/* Texto adicional debajo de "Sobre mí" */
-#sobre-mi-texto {
-  display: none;
-  font-family: 'NeueHaasRegular';
-  font-size: 10px;
-  color: #6F6F6E;
-  margin-top: 0.5vw;
-}
-
-.footer.sobre-mi-activo #sobre-mi-texto {
   display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+/* INFORMACION */
+
+#informacion {
+  scroll-margin-top: 0;
+}
+
+.informacion {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 2vw;
+  margin: 0;
+  background-color: black;
+}
+
+.informacion-texto {
+  grid-column: 1 / 10;
+  grid-row: 1;
+  
+  font-family: 'Pangaia', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  
+  margin: 0;
+  padding: 0;
+}
+
+
+/* CONTACTO */
+
+.contacto {
+  grid-column: 1 / 10;
+  grid-row: 2;
+  
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  
+  padding: 0;
+  margin: 0;
+}
+
+
+/* LOCALIZACIÓN */
+
+.contacto-localizacion {
+  grid-column: 1 / 3;
+}
+
+.contacto-localizacion p {
+  font-family: 'NeueHaasMedium';
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+
+/* EMAIL */
+
+.contacto-email {
+  grid-column: 3 / 5;
+}
+
+.contacto-email p {
+  font-family: 'NeueHaasMedium';
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+
+/* LINKEDIN */
+
+.contacto-enlaces {
+  grid-column: 5 / 7;
+}
+
+.contacto-enlaces p {
+  font-family: 'NeueHaasMedium';
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+/* LINKEDIN */
+
+.contacto-web {
+  grid-column: 7 / 9;
+}
+.contacto-web p {
+  font-family: 'NeueHaasMedium';
+  text-align: right;
+  font-size: 12px;
+  color: white;
+  margin: 0;
+}
+
+
+
+/* =====================================================
+   RETÍCULA DE FONDO
+   10 cruces = 9 columnas
+   2vw de margen en los cuatro lados
+===================================================== */
+
+.reticula {
+  position: fixed;
+
+  top: 2vw;
+  left: 2vw;
+
+  width: calc(100vw - 5vw);
+  height: calc(100vh - 5vw);
+
+  z-index: 0;
+  pointer-events: none;
+
+  background-image: url('../img/cruz14.svg');
+  background-repeat: repeat;
+
+  background-size:
+    calc((100vw - 5vw) / 9)
+    calc((100vw - 5vw) / 9);
+
+  background-position: 0 0;
+}
+
+.intro,
+#archivo,
+.informacion {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* =====================================================
+   PANTALLA DE CARGA
+===================================================== */
+
+#loader {
+  position: fixed;
+  inset: 0;
+  background-color: white
+  z-index: 9999;
+
+  opacity: 1;
+  visibility: visible;
+
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
+}
+
+
+/* Retícula del loader */
+
+#loader .reticula {
+  position: absolute;
+
+  top: 2vw;
+  left: 2vw;
+
+  width: calc(100vw - 5vw);
+  height: calc(100vh - 5vw);
+
+  z-index: 0;
+}
+
+
+/* Cuando termina la carga */
+
+#loader.oculto {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+/* El contenido empieza invisible */
+
+body > .intro,
+body > #archivo,
+body > #informacion,
+body > #preview {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+
+/* Después del loader */
+
+body.cargado > .intro,
+body.cargado > #archivo,
+body.cargado > #informacion,
+body.cargado > #preview {
+  opacity: 1;
+}
+
+/* Reticula en seccion informacion*/
+body.en-informacion > .reticula {
+  z-index: 2;
+  filter: invert(1);
+}
+
+body.en-informacion .informacion {
+  z-index: 1;
 }

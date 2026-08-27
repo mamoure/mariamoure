@@ -7,38 +7,76 @@
   </head>
 
   <body>
-    <div class="tabla">
-      <!-- Cabecera -->
-      <div class="fila header">
-        <div><p>Coordenadas</p></div>
-        <div><p>Nombre</p></div>
-        <div><p>Tema</p></div>
-        <div><p>Servicios</p></div>
-        <div><p>Toolbox</p></div>
-        <div><p>Equipo</p></div>
-        <div><p></p></div>
-        <div><p></p></div>
-        <div><p></p></div>
 
+      <!-- Pantalla inicial: solo retícula -->
+      <div id="loader">
+        <div class="reticula"></div>
       </div>
+
+      <div class="reticula"></div>
+
+    <!-- Intro en el top de la web -->
+    <div class="intro">
+      <p class="intro-menu">María Moure → <a href="#archivo">Archivo</a>, <a href="#informacion">Información</a></p>
+      <p class="intro-texto">Trabajo en la intersección entre territorio, urbanismo y datos para comprender los desafíos de nuestras ciudades y transformarlos en
+        estrategias, conocimiento y proyectos para un desarrollo urbano más sostenible.</p>
     </div>
+
+
+    <!-- TAGS -->
+    <section id="archivo">
+      <div id="tags-panel">
+        <div id="tags-list"></div>
+      </div>
+
+      <div class="tabla">
+        <!-- Cabecera -->
+        <div class="fila header">
+          <div><p>Coordenadas</p></div>
+          <div><p>Nombre</p></div>
+          <div><p>Tema</p></div>
+          <div><p>Servicios</p></div>
+          <div><p>Toolbox</p></div>
+          <div><p>Año</p></div>
+          <div><p>Descripción</p></div>
+          <div><p></p></div>
+          <div><p></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informacion -->
+    <section id="informacion" class="informacion">
+      <div class="informacion-texto">
+        <p>Soy arquitecta urbanista y cuento con más de ocho años de experiencia en planificación estratégica,
+          análisis territorial y desarrollo urbano sostenible. Estoy especializada en Sistemas de Información Geográfica,
+          análisis espacial e indicadores territoriales para elaborar diagnósticos, definir estrategias y apoyar la toma de decisiones
+          de las administraciones públicas. Mi trabajo combina visión estratégica, rigor técnico e investigación aplicada para transformar
+          datos territoriales en estrategias y proyectos que impulsen ciudades y territorios más sostenibles.</p>
+      </div>
+
+      <div class="contacto">
+        <div class="contacto-localizacion">
+          <p>Planificación estratégica. Territorio y urbanismo.</p>
+        </div>
+        <div class="contacto-email">       
+            <p>maria.moure.rosende@gmail.com</p>
+        </div>
+        <div class="contacto-enlaces">        
+            <p>LinkedIn</p>
+        </div>
+        <div class="contacto-web">        
+            <p>Diseño y desarrollo web por María Moure</p>
+        </div>
+      </div>
+    </section>
 
   <!-- Preview imagen -->
   <div id="preview">
     <img src="" alt="preview">
   </div>
 
-  <!-- Preview footer -->
-  <div class="footer">
-    <div class="span"><p>María Moure</p><p>Planificación estratégica. Territorio y urbanismo</p></div>
-    <div><p>maria.moure.rosende@gmail.com</p></div>
-    <div></div>
-    <div></div>
-    <div><p>LinkeIn</p></div>
-    <div id="sobre-mi"><p>Sobre mí</p></div>
-    <div></div>
-    <div></div>
-</div>
+
 
   <script src="js/script.js"></script>
   </body>
