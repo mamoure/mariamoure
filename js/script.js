@@ -194,7 +194,7 @@ const proyectos = [
   {
     codigo: "07.",
     coord: "41.38514, 2.17346",
-    nombre: "Metrópolis Verda",
+    nombre: "Modelo de gravedad de la infraestructura verde",
     tema: "Infraestructura verde, Planificación urbana",
     servicios: "Diagnóstico integrado, Evaluación de políticas, Planificación estratégica",
     toolbox: "Análisis de datos, Cartografía, Visualización de datos",
@@ -254,7 +254,7 @@ const proyectos = [
    {
     codigo: "02.",
     coord: "41.38517, 2.17342",
-    nombre: "Escenarios de cambio climático para la costa metropolitana de Barcelona",
+    nombre: "Escenarios de cambio climático de la costa metropolitana de Barcelona",
     tema: "Cambio climático, Espacio público, Litoral, Resiliencia",
     servicios: "Diagnóstico integrado",
     toolbox: "Análisis de datos, Cartografía",
@@ -396,12 +396,6 @@ proyectos.forEach(p => {
             <p>${p.descripcion || ""}</p>
 
             ${
-                p.equipo
-                    ? `<p class="equipo-proyecto">${p.equipo}</p>`
-                    : ""
-            }
-
-            ${
                 p.nombre === "Compostela Xadrez"
                     ? `
                         <p>
@@ -414,6 +408,60 @@ proyectos.forEach(p => {
                             </a>
                         </p>
                     `
+                    : ""
+            }
+
+            ${
+                p.nombre === "Palimpsesto Atlántico"
+                    ? `
+                        <p>
+                            <a
+                                href="https://vimeo.com/877628321?share=copy&fl=sv&fe=ci"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar Palimpsesto Atlántico
+                            </a>
+                        </p>
+                    `
+                    : ""
+            }
+
+            ${
+                p.nombre === "Indicadores Ámbitos Estadísticos Metropolitanos"
+                    ? `
+                        <p>
+                            <a
+                                href="https://ide.amb.cat/ambits-estadistics-metropolitans/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar Observatorio Indicadores
+                            </a>
+                        </p>
+                    `
+                    : ""
+            }
+
+            ${
+                p.nombre === "Escenarios de cambio climático de la costa metropolitana de Barcelona"
+                    ? `
+                        <p>
+                            <a
+                                href="https://urbannext.net/2100-climate-change-scenarios/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visitar Escenarios de cambio climático
+                            </a>
+                        </p>
+                    `
+                    : ""
+            }
+
+            ${
+                p.equipo
+                    ? `<p class="equipo-proyecto">${p.equipo}</p>`
                     : ""
             }
 
