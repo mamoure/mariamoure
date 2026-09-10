@@ -114,7 +114,6 @@ a:active {
 /* INTRO */
 .intro {
   padding: 2vw 2vw 2vw 2vw;
-  xbackground-color: red;
 }
 
 .intro-menu {
@@ -184,7 +183,6 @@ a:active {
   z-index: 2;
   position: relative;
   padding: 2vw 2vw 2vw 2vw;
-  xbackground-color: aqua;
 }
 
 
