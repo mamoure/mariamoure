@@ -145,7 +145,6 @@ a:active {
 #tags-panel {
   display: block;
   padding: 4vw 2vw 2vw 2vw;
-  xbackground-color: orange;
 }
 
 #tags-list {
@@ -191,6 +190,7 @@ a:active {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     padding-bottom: 1vw;
+    cursor: pointer;
 }
 
 
@@ -275,7 +275,7 @@ a:active {
 /* IMAGEN FLOTANTE */
 #preview {
   position: fixed;
-  width: 40vw;
+  width: 30vw;
   height: auto;
   left: 50%;
   opacity: 0;
@@ -442,7 +442,7 @@ a:active {
 #loader {
   position: fixed;
   inset: 0;
-  background-color: white
+  background-color: white;
   z-index: 9999;
 
   opacity: 1;
@@ -506,4 +506,96 @@ body.en-informacion > .reticula {
 
 body.en-informacion .informacion {
   z-index: 1;
+}
+
+
+
+
+/* =================================================
+   VISTA DEL PROYECTO
+================================================= */
+
+#proyecto-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: white;
+
+    z-index: 1000;
+
+    display: none;
+
+    overflow: hidden;
+
+        cursor: default;
+}
+
+
+/* Nombre del proyecto */
+
+#proyecto-nombre {
+    position: absolute;
+
+    top: 2vw;
+    left: 2vw;
+
+    z-index: 1002;
+
+    font-family: 'NeueHaasMedium';
+    font-size: 14px;
+
+    color: black;
+
+    margin: 0;
+}
+
+
+/* Salir */
+
+#proyecto-salir {
+    position: absolute;
+
+    top: 2vw;
+    right: 2vw;
+
+    z-index: 1002;
+
+    font-family: 'NeueHaasMedium';
+    font-size: 14px;
+
+    color: black;
+
+    cursor: pointer;
+
+    margin: 0;
+}
+
+
+/* Contenedor de la imagen */
+
+#proyecto-imagen {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/* Imagen */
+
+#proyecto-img {
+    width: 80vw;
+    height: 80vh;
+
+    object-fit: contain;
+
+    display: block;
 }

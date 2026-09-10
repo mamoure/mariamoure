@@ -81,7 +81,9 @@ const proyectos = [
     equipo: "Ajuntament de Algemesí, TECHfriendly",
     año: "2025",
     descripcion: "La Agenda Urbana de Reconstrucción de Algemesí es un instrumento estratégico promovido por el Ministerio de Vivienda y Agenda Urbana para guiar la recuperación sostenible y resiliente de los municipios afectados por la DANA de octubre de 2024. Amplía el Plan Urbano de Actuación Municipal reforzando la adaptación al cambio climático, la gestión eficiente de los recursos y la prevención del riesgo ambiental.",
-    img: "img/17.png"
+    img: [
+    "img/17.png"
+]
   },
   {
     codigo: "16.",
@@ -141,7 +143,9 @@ const proyectos = [
     equipo: "Ayuntamiento de Málaga, TECHfriendly",
     año: "2024",
     descripcion: "Actualización del diagnóstico de la Agenda Urbana de Málaga mediante la revisión y cálculo de indicadores urbanos y territoriales, incorporando datos actualizados para evaluar la evolución del municipio. El proyecto incluye la elaboración de cartografía temática actualizada para representar espacialmente los principales indicadores y facilitar el análisis de la situación urbana.",
-    img: "img/12.gif"
+    img: [
+    "img/12.gif"
+]
   },
   {
     codigo: "11.",
@@ -153,7 +157,9 @@ const proyectos = [
     equipo: "Consell Comarcal Baix Llobregat, TECHfriendly",
     año: "2024",
     descripcion: "El Plan de Actuación Comarcal del Baix Llobregat 2024-2027 define las principales líneas estratégicas y acciones para avanzar hacia una comarca más sostenible, cohesionada e inclusiva. Elaborado mediante un proceso participativo, estructura la actuación comarcal en cinco ejes estratégicos, 22 líneas de actuación y 123 acciones orientadas al desarrollo territorial sostenible, la cohesión social, la igualdad de oportunidades y la calidad de vida.",
-    img: "img/11.png"
+    img: [
+    "img/11.png"
+]
   },
   {
     codigo: "10.",
@@ -165,7 +171,9 @@ const proyectos = [
     equipo: "Ajuntament de Badalona, TECHfriendly",
     año: "2024",
     descripcion: "Badalona Estrategia 2030 establece un marco estratégico para orientar la transformación del municipio hacia un modelo urbano más sostenible, resiliente e inclusivo. Siguiendo la metodología de la Agenda Urbana Española, el proyecto realiza un diagnóstico transversal basado en sus 10 objetivos estratégicos e identifica los principales retos y ámbitos de actuación para el desarrollo futuro de la ciudad.",
-    img: "img/10.png"
+    img: [
+    "img/10.png"
+]
   },
   {
     codigo: "09.",
@@ -177,7 +185,9 @@ const proyectos = [
     equipo: "Diputació de Barcelona, TECHfriendly",
     año: "2024",
     descripcion: "Estudio para impulsar el turismo azul en la costa de Barcelona y el Delta del Llobregat, enmarcado en el PSTD Costa Barcelona Delta Llobregat. El proyecto analiza las oportunidades, necesidades y barreras para desarrollar una oferta turística sostenible vinculada al litoral y su capital natural, revisa el marco normativo y define un plan de acción para su implementación.",
-    img: "img/09.gif"
+   img: [
+    "img/09.gif"
+] 
   },
   {
     codigo: "08.",
@@ -189,7 +199,9 @@ const proyectos = [
     equipo: "",
     año: "2021",
     descripcion: "Investigación interseccional y multitemporal sobre la transformación de la costa atlántica de Galicia durante las últimas décadas del Antropoceno. El proyecto cartografía los cambios territoriales derivados de la actividad humana e identifica factores clave para orientar futuros escenarios de preservación ecológica y urbanística. Asimismo, la investigación opera como un palimpsesto que recoge la memoria de los agentes humanos y no humanos de las Rías Baixas.",
-    img: "img/08.png"
+    img: [
+    "img/08.png"
+]
   },
   {
     codigo: "07.",
@@ -201,7 +213,12 @@ const proyectos = [
     equipo: "Àrea Metropolitana de Barcelona",
     año: "2021",
     descripcion: "Estudio que desarrolla una metodología para evaluar la conectividad ecológica de la infraestructura verde del área metropolitana de Barcelona y definir una red de corredores verdes. El proyecto integra criterios de ecología del paisaje y planificación urbana para mejorar la conectividad territorial y reforzar las funciones ecológicas y sociales de los espacios verdes.",
-    img: "img/07.gif"
+    img: [
+    "img/07-01.png",
+    "img/07-02.png",
+    "img/07-03.png",
+    "img/07-04.png"
+]
   },
     {
     codigo: "06.",
@@ -225,7 +242,11 @@ const proyectos = [
     equipo: "Àrea Metropolitana de Barcelona",
     año: "2020",
     descripcion: "Prioridades Invertidas analiza la caminabilidad del área metropolitana de Barcelona para promover una movilidad más activa y sostenible. El proyecto desarrolla un indicador que relaciona el espacio destinado a peatones con el reservado al tráfico, permitiendo identificar las calles que priorizan cada modo de movilidad. La herramienta facilita el análisis urbano y la toma de decisiones para mejorar la accesibilidad, seguridad y sostenibilidad.",
-    img: "img/05.gif"
+    img: [
+    "img/05-01.png",
+    "img/05-02.gif",
+    "img/05-03.png"
+]
   },
   {
     codigo: "04.",
@@ -237,7 +258,9 @@ const proyectos = [
     equipo: "",
     año: "2020",
     descripcion: "Auga Belesar analiza la relación entre la variabilidad climática y los recursos hídricos de la cuenca del embalse de Belesar. El proyecto estudia la evolución de las precipitaciones, la superficie de agua y la vegetación mediante imágenes satelitales Landsat, identificando cómo las variaciones en el régimen pluviométrico afectan a la disponibilidad de agua y a la dinámica territorial de la cuenca.",
-    img: "img/04.gif"
+    img: [
+    "img/04.gif"
+]
   },
     {
     codigo: "03.",
@@ -249,7 +272,15 @@ const proyectos = [
     equipo: "",
     año: "2020",
     descripcion: "Covid Compostela analiza el impacto del confinamiento por la pandemia de COVID-19 en Santiago de Compostela mediante el cálculo y análisis de indicadores urbanos y habitacionales. El proyecto identifica y cartografía desigualdades territoriales vinculadas a las condiciones de vivienda, el acceso a espacios libres y otros factores de vulnerabilidad urbana, evidenciando su relación con la salud pública.",
-    img: "img/03.gif"
+    img: [
+    "img/03-01.png",
+    "img/03-02.png",
+    "img/03-03.png",
+    "img/03-04.png",
+    "img/03-05.png",
+    "img/03-06.png",
+    "img/03-07.png"
+]
   },
    {
     codigo: "02.",
@@ -261,7 +292,9 @@ const proyectos = [
     equipo: "Landlab, laboratorio de paisajes",
     año: "2019",
     descripcion: "Propuesta de adaptación al cambio climático de la costa metropolitana de Barcelona con horizonte 2100. El proyecto analiza la evolución histórica de los sistemas ecológicos, sociales y económicos del litoral y plantea diferentes escenarios de futuro y estrategias de respuesta. Se proponen soluciones estructurales, basadas en la naturaleza y no estructurales para reforzar la resiliencia costera y mejorar la relación entre la ciudad y el mar.",
-    img: "img/02.jpg"
+    img: [
+    "img/02.jpg"
+]
   },
   {
     codigo: "01.",
@@ -273,9 +306,14 @@ const proyectos = [
     equipo: "",
     año: "2018",
     descripcion: "Proyecto de relectura paisajística de las Marismas de Sancti-Petri que propone una nueva forma de observar y relacionarse con el territorio. La intervención plantea una constelación de refugios puntuales, localizados estratégicamente para no interferir con el ecosistema, que convierten al visitante en espectador de un paisaje cambiante y temporal. Asimismo, los refugios se conectan mediante sistemas de recorrido que permiten experimentar el paisaje desde diferentes perspectivas sensoriales.",
-    img: "img/01.png"
+    img: [
+    "img/01-01.png",
+    "img/01-02.png"
+]
   }
 ];
+
+
 
 /* =====================================================
    ELEMENTOS PRINCIPALES
@@ -470,58 +508,63 @@ proyectos.forEach(p => {
     `;
 
 
-    /* =================================================
-       HOVER IMAGEN
-    ================================================= */
+/* =================================================
+   HOVER IMAGEN
+================================================= */
 
-    fila.addEventListener("mouseenter", () => {
+fila.addEventListener("mouseenter", () => {
 
-        if (p.img && p.img.trim() !== "") {
+    /* Obtener la primera imagen */
+    const imagenHover = Array.isArray(p.img)
+        ? p.img[0]
+        : p.img;
 
-            previewImg.src = p.img;
+    if (imagenHover && imagenHover.trim() !== "") {
 
-            const rect = fila.getBoundingClientRect();
+        previewImg.src = imagenHover;
 
-            /* Mantener la imagen centrada */
-            preview.style.left = "50%";
+        const rect = fila.getBoundingClientRect();
 
-            /* Posición inicial: debajo de la fila */
-            preview.style.top = `${rect.bottom + 5}px`;
+        /* Mantener la imagen centrada */
+        preview.style.left = "50%";
 
-            /* Mostrar temporalmente para calcular altura */
-            preview.style.opacity = 0;
+        /* Posición inicial: debajo de la fila */
+        preview.style.top = `${rect.bottom + 5}px`;
 
-            requestAnimationFrame(() => {
-
-                const alturaImagen = preview.offsetHeight;
-                const espacioAbajo = window.innerHeight - rect.bottom;
-
-                /* Si cabe debajo */
-                if (espacioAbajo >= alturaImagen + 5) {
-
-                    preview.style.top = `${rect.bottom + 5}px`;
-
-                /* Si no cabe, colocar encima */
-                } else {
-
-                    preview.style.top = `${rect.top - alturaImagen - 5}px`;
-
-                }
-
-                preview.style.opacity = 1;
-
-            });
-
-        }
-
-    });
-
-
-    fila.addEventListener("mouseleave", () => {
-
+        /* Mostrar temporalmente para calcular altura */
         preview.style.opacity = 0;
 
-    });
+        requestAnimationFrame(() => {
+
+            const alturaImagen = preview.offsetHeight;
+            const espacioAbajo = window.innerHeight - rect.bottom;
+
+            /* Si cabe debajo */
+            if (espacioAbajo >= alturaImagen + 5) {
+
+                preview.style.top = `${rect.bottom + 5}px`;
+
+            /* Si no cabe, colocar encima */
+            } else {
+
+                preview.style.top = `${rect.top - alturaImagen - 5}px`;
+
+            }
+
+            preview.style.opacity = 1;
+
+        });
+
+    }
+
+});
+
+
+fila.addEventListener("mouseleave", () => {
+
+    preview.style.opacity = 0;
+
+});
 
     /* =================================================
        INSERTAR FILA EN LA TABLA
@@ -614,6 +657,9 @@ proyectos.forEach(p => {
     }
 
 });
+
+
+
 
 
 
@@ -782,7 +828,434 @@ proyectos.forEach(p => {
     });
 
 
-    /* =====================================================
+
+ /* =====================================================
+   VISTA INDIVIDUAL DEL PROYECTO
+===================================================== */
+
+const proyectoView =
+    document.getElementById("proyecto-view");
+
+const proyectoNombre =
+    document.getElementById("proyecto-nombre");
+
+const proyectoImg =
+    document.getElementById("proyecto-img");
+
+const proyectoSalir =
+    document.getElementById("proyecto-salir");
+
+
+let proyectoActual = null;
+
+let imagenActual = 0;
+
+
+/* =====================================================
+   OBTENER IMÁGENES
+===================================================== */
+
+function obtenerImagenes(p) {
+
+    if (!p.img) {
+        return [];
+    }
+
+
+    /* Si img es un array */
+
+    if (Array.isArray(p.img)) {
+
+        return p.img.filter(
+            img => img && img.trim() !== ""
+        );
+
+    }
+
+
+    /* Si img es una única imagen */
+
+    if (
+        typeof p.img === "string" &&
+        p.img.trim() !== ""
+    ) {
+
+        return [p.img];
+
+    }
+
+
+    return [];
+
+}
+
+
+/* =====================================================
+   ABRIR PROYECTO
+===================================================== */
+
+function abrirProyecto(p) {
+
+    const imagenes = obtenerImagenes(p);
+
+
+    /* Si no tiene imágenes, no abrir */
+
+    if (
+        imagenes.length === 0 ||
+        !proyectoView
+    ) {
+
+        return;
+
+    }
+
+
+    proyectoActual = p;
+
+    imagenActual = 0;
+
+
+    /* Nombre */
+
+    proyectoNombre.textContent = p.nombre;
+
+
+    /* Primera imagen */
+
+    proyectoImg.src =
+        imagenes[imagenActual];
+
+    proyectoImg.alt =
+        p.nombre;
+
+
+    /* Mostrar pantalla */
+
+    proyectoView.style.display = "block";
+
+
+    /* Ocultar preview del listado */
+
+    if (preview) {
+
+        preview.style.opacity = 0;
+
+    }
+
+
+    /* Bloquear scroll */
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+/* =====================================================
+   CERRAR PROYECTO
+===================================================== */
+
+function cerrarProyecto() {
+
+    if (!proyectoView) {
+        return;
+    }
+
+
+    /* Ocultar pantalla */
+
+    proyectoView.style.display = "none";
+
+
+    /* Limpiar imagen */
+
+    proyectoImg.src = "";
+
+
+    /* Reiniciar */
+
+    proyectoActual = null;
+
+    imagenActual = 0;
+
+
+    /* Recuperar scroll */
+
+    document.body.style.overflow = "";
+
+}
+
+
+/* =====================================================
+   CAMBIAR IMAGEN
+===================================================== */
+
+function cambiarImagen(direccion) {
+
+    if (!proyectoActual) {
+        return;
+    }
+
+
+    const imagenes =
+        obtenerImagenes(proyectoActual);
+
+
+    /* Si solo hay una imagen */
+
+    if (imagenes.length <= 1) {
+        return;
+    }
+
+
+    /* Cambiar posición */
+
+    imagenActual += direccion;
+
+
+    /* Si llegamos al final,
+       volver a la primera */
+
+    if (
+        imagenActual >= imagenes.length
+    ) {
+
+        imagenActual = 0;
+
+    }
+
+
+    /* Si estamos antes de la primera,
+       ir a la última */
+
+    if (imagenActual < 0) {
+
+        imagenActual =
+            imagenes.length - 1;
+
+    }
+
+
+    /* Cambiar imagen */
+
+    proyectoImg.src =
+        imagenes[imagenActual];
+
+}
+
+
+/* =====================================================
+   CLICK EN LAS FILAS
+===================================================== */
+
+document
+    .querySelectorAll(".fila")
+    .forEach(fila => {
+
+        /* Buscar el proyecto correspondiente */
+
+        const nombre =
+            fila.querySelector(".col-nombre p");
+
+        if (!nombre) {
+            return;
+        }
+
+
+        const proyecto =
+            proyectos.find(
+                p => p.nombre === nombre.textContent
+            );
+
+
+        if (!proyecto) {
+            return;
+        }
+
+
+        fila.addEventListener("click", (e) => {
+
+            /* Si se pulsa un enlace,
+               no abrir el proyecto */
+
+            if (e.target.closest("a")) {
+                return;
+            }
+
+
+            abrirProyecto(proyecto);
+
+        });
+
+    });
+
+
+/* =====================================================
+   BOTÓN SALIR
+===================================================== */
+
+if (proyectoSalir) {
+
+    proyectoSalir.addEventListener(
+        "click",
+        (e) => {
+
+            e.stopPropagation();
+
+            cerrarProyecto();
+
+        }
+    );
+
+}
+
+/* =====================================================
+   CURSOR DE NAVEGACIÓN
+===================================================== */
+
+if (proyectoView) {
+
+    proyectoView.addEventListener("mousemove", (e) => {
+
+        if (!proyectoActual) {
+            return;
+        }
+
+        const imagenes =
+            obtenerImagenes(proyectoActual);
+
+        /* Si solo hay una imagen, cursor normal */
+
+        if (imagenes.length <= 1) {
+            proyectoView.style.cursor = "default";
+            return;
+        }
+
+        /* Mitad izquierda → anterior */
+
+        if (e.clientX < window.innerWidth / 2) {
+            proyectoView.style.cursor = "w-resize";
+        }
+
+        /* Mitad derecha → siguiente */
+
+        else {
+            proyectoView.style.cursor = "e-resize";
+        }
+
+    });
+
+}
+
+
+
+/* =====================================================
+   CLICK EN LA PANTALLA
+===================================================== */
+
+if (proyectoView) {
+
+    proyectoView.addEventListener(
+        "click",
+        (e) => {
+
+            /* No hacer nada si se pulsa Salir */
+
+            if (
+                e.target === proyectoSalir ||
+                e.target.closest("#proyecto-salir")
+            ) {
+
+                return;
+
+            }
+
+
+            if (!proyectoActual) {
+                return;
+            }
+
+
+            const imagenes =
+                obtenerImagenes(proyectoActual);
+
+
+            /* Si solo hay una imagen,
+               no hacer nada */
+
+            if (imagenes.length <= 1) {
+                return;
+            }
+
+
+            /* Mitad izquierda */
+
+            if (
+                e.clientX <
+                window.innerWidth / 2
+            ) {
+
+                cambiarImagen(-1);
+
+            }
+
+
+            /* Mitad derecha */
+
+            else {
+
+                cambiarImagen(1);
+
+            }
+
+        }
+    );
+
+}
+
+
+/* =====================================================
+   TECLADO
+===================================================== */
+
+document.addEventListener(
+    "keydown",
+    (e) => {
+
+        if (!proyectoActual) {
+            return;
+        }
+
+
+        /* ESC → Salir */
+
+        if (e.key === "Escape") {
+
+            cerrarProyecto();
+
+        }
+
+
+        /* ← → */
+
+        if (e.key === "ArrowLeft") {
+
+            cambiarImagen(-1);
+
+        }
+
+
+        if (e.key === "ArrowRight") {
+
+            cambiarImagen(1);
+
+        }
+
+    }
+);   
+
+
+/* =====================================================
    PANTALLA INICIAL
 ===================================================== */
 
