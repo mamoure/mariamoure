@@ -20,8 +20,15 @@ const proyectos = [
     toolbox: "Análisis de datos, Cartografía, Metodología participativa",
     año: "2026",
     equipo: "Consell Comarcal Baix Llobregat, TECHfriendly",
-    descripcion: "La Agenda Urbana del Baix Llobregat es un instrumento de planificación estratégica comarcal, alineado con la Agenda 2030, la Agenda Urbana Española y la Agenda de los Pueblos y Ciudades de Cataluña. Define un marco de actuación a largo plazo para avanzar hacia un territorio más sostenible, inclusivo y resiliente, e identificar proyectos estratégicos para el desarrollo de la comarca.",
-    img: ""
+    descripcion: "La Agenda Urbana del Baix Llobregat es un instrumento de planificación estratégica comarcal, alineado con la Agenda 2030, la Agenda Urbana Española y la Agenda de los Pueblos y Ciudades de Cataluña. Define un marco de actuación a largo plazo para avanzar hacia un territorio más sostenible, inclusivo y resiliente, e identifica proyectos estratégicos para el desarrollo de la comarca.",
+    img: [
+    "img/22-01.png",
+    "img/22-02.png",
+    "img/22-03.png",
+    "img/22-04.png",
+    "img/22-05.png",
+    "img/22-06.png"
+]
   },
   {
     codigo: "21.",
@@ -33,7 +40,9 @@ const proyectos = [
     equipo: "Ajuntament de Cullera, TECHfriendly",
     año: "2026",
     descripcion: "El Plan de Actuación Integrado de Cullera, presentado a la convocatoria de fondos FEDER para la reconstrucción y resiliencia urbana, impulsa la adaptación del frente marítimo ante riesgos ambientales e hídricos. El proyecto plantea actuaciones para reforzar la resiliencia urbana y mejorar la protección del municipio frente a temporales y otros fenómenos meteorológicos extremos. Proyecto beneficiario.",
-    img: ""
+    img: [
+
+]
   },
   {
     codigo: "20.",
@@ -45,7 +54,9 @@ const proyectos = [
     equipo: "Ajuntament de Manises, TECHfriendly",
     año: "2026",
     descripcion: "El Plan de Actuación Integrado de Manises, presentado a la convocatoria de fondos FEDER para la reconstrucción y resiliencia urbana, impulsa una estrategia de recuperación y resiliencia urbana frente a la emergencia. El proyecto plantea actuaciones transformadoras orientadas a mejorar la gestión del riesgo de inundación y reforzar la capacidad del municipio para afrontar futuros episodios extremos. Proyecto beneficiario.",
-    img: ""
+    img: [
+
+]
   },
   {
     codigo: "19.",
@@ -57,7 +68,9 @@ const proyectos = [
     equipo: "Ajuntament de Premiá de Mar, TECHfriendly",
     año: "2025",
     descripcion: "La actualización del Plan de Acción de la Agenda Urbana de Premià de Mar es un proceso de revisión estratégica impulsado por el Ayuntamiento para adaptar sus actuaciones a las necesidades actuales del municipio. Mediante sesiones transversales de trabajo con técnicos municipales de distintos servicios, se han identificado y priorizado las actuaciones que refuerzan su enfoque estratégico.",
-    img: ""
+    img: [
+
+]
   },
   {
     codigo: "18.",
@@ -69,7 +82,9 @@ const proyectos = [
     equipo: "Ajuntament de Sant Boi de Llobregat, TECHfriendly",
     año: "2025",
     descripcion: "El Programa Memoria de Intervención Integral de Sant Boi de Llobregat, presentado a la convocatoria de 2025 del Pla de Barris, se integra en la Estrategia de Ciudad 2030 y la Agenda Urbana local. El proyecto plantea una actuación integral en los barrios de Marianao y Centro para combatir la segregación urbana, reducir las desigualdades sociales y mejorar la adaptación ante los efectos de la crisis climática.",
-    img: ""
+    img: [
+
+]
   },
   {
     codigo: "17.",
@@ -82,7 +97,7 @@ const proyectos = [
     año: "2025",
     descripcion: "La Agenda Urbana de Reconstrucción de Algemesí es un instrumento estratégico promovido por el Ministerio de Vivienda y Agenda Urbana para guiar la recuperación sostenible y resiliente de los municipios afectados por la DANA de octubre de 2024. Amplía el Plan Urbano de Actuación Municipal reforzando la adaptación al cambio climático, la gestión eficiente de los recursos y la prevención del riesgo ambiental.",
     img: [
-    "img/17.png"
+    "img/17-01.png"
 ]
   },
   {
@@ -144,7 +159,15 @@ const proyectos = [
     año: "2024",
     descripcion: "Actualización del diagnóstico de la Agenda Urbana de Málaga mediante la revisión y cálculo de indicadores urbanos y territoriales, incorporando datos actualizados para evaluar la evolución del municipio. El proyecto incluye la elaboración de cartografía temática actualizada para representar espacialmente los principales indicadores y facilitar el análisis de la situación urbana.",
     img: [
-    "img/12.gif"
+    "img/12-01.png",
+    "img/12-02.png",
+    "img/12-03.png",
+    "img/12-04.png",
+    "img/12-05.png",
+    "img/12-06.png",
+    "img/12-07.png",
+    "img/12-08.png",
+    "img/12-09.png"
 ]
   },
   {
@@ -158,7 +181,17 @@ const proyectos = [
     año: "2024",
     descripcion: "El Plan de Actuación Comarcal del Baix Llobregat 2024-2027 define las principales líneas estratégicas y acciones para avanzar hacia una comarca más sostenible, cohesionada e inclusiva. Elaborado mediante un proceso participativo, estructura la actuación comarcal en cinco ejes estratégicos, 22 líneas de actuación y 123 acciones orientadas al desarrollo territorial sostenible, la cohesión social, la igualdad de oportunidades y la calidad de vida.",
     img: [
-    "img/11.png"
+    "img/11-01.png",
+    "img/11-02.png",
+    "img/11-03.png",
+    "img/11-04.png",
+    "img/11-05.png",
+    "img/11-06.png",
+    "img/11-07.png",
+    "img/11-08.png",
+    "img/11-09.png",
+    "img/11-10.png",
+    "img/11-11.png"
 ]
   },
   {
@@ -172,7 +205,11 @@ const proyectos = [
     año: "2024",
     descripcion: "Badalona Estrategia 2030 establece un marco estratégico para orientar la transformación del municipio hacia un modelo urbano más sostenible, resiliente e inclusivo. Siguiendo la metodología de la Agenda Urbana Española, el proyecto realiza un diagnóstico transversal basado en sus 10 objetivos estratégicos e identifica los principales retos y ámbitos de actuación para el desarrollo futuro de la ciudad.",
     img: [
-    "img/10.png"
+    "img/10-01.png",
+    "img/10-02.gif",
+    "img/10-03.png",
+    "img/10-04.png",
+    "img/10-05.png"
 ]
   },
   {
@@ -186,7 +223,9 @@ const proyectos = [
     año: "2024",
     descripcion: "Estudio para impulsar el turismo azul en la costa de Barcelona y el Delta del Llobregat, enmarcado en el PSTD Costa Barcelona Delta Llobregat. El proyecto analiza las oportunidades, necesidades y barreras para desarrollar una oferta turística sostenible vinculada al litoral y su capital natural, revisa el marco normativo y define un plan de acción para su implementación.",
    img: [
-    "img/09.gif"
+    "img/09-01.png",
+    "img/09-02.png",
+    "img/09-03.png"
 ] 
   },
   {
@@ -200,7 +239,9 @@ const proyectos = [
     año: "2021",
     descripcion: "Investigación interseccional y multitemporal sobre la transformación de la costa atlántica de Galicia durante las últimas décadas del Antropoceno. El proyecto cartografía los cambios territoriales derivados de la actividad humana e identifica factores clave para orientar futuros escenarios de preservación ecológica y urbanística. Asimismo, la investigación opera como un palimpsesto que recoge la memoria de los agentes humanos y no humanos de las Rías Baixas.",
     img: [
-    "img/08.png"
+    "img/08-01.png",
+    "img/08-02.png",
+    "img/08-03.png"
 ]
   },
   {
@@ -217,7 +258,7 @@ const proyectos = [
     "img/07-01.png",
     "img/07-02.png",
     "img/07-03.png",
-    "img/07-04.png"
+    "img/07-04.gif"
 ]
   },
     {
@@ -259,7 +300,10 @@ const proyectos = [
     año: "2020",
     descripcion: "Auga Belesar analiza la relación entre la variabilidad climática y los recursos hídricos de la cuenca del embalse de Belesar. El proyecto estudia la evolución de las precipitaciones, la superficie de agua y la vegetación mediante imágenes satelitales Landsat, identificando cómo las variaciones en el régimen pluviométrico afectan a la disponibilidad de agua y a la dinámica territorial de la cuenca.",
     img: [
-    "img/04.gif"
+    "img/04-01.png",
+    "img/04-02.gif",
+    "img/04-03.gif",
+    "img/04-04.gif"
 ]
   },
     {
@@ -293,7 +337,7 @@ const proyectos = [
     año: "2019",
     descripcion: "Propuesta de adaptación al cambio climático de la costa metropolitana de Barcelona con horizonte 2100. El proyecto analiza la evolución histórica de los sistemas ecológicos, sociales y económicos del litoral y plantea diferentes escenarios de futuro y estrategias de respuesta. Se proponen soluciones estructurales, basadas en la naturaleza y no estructurales para reforzar la resiliencia costera y mejorar la relación entre la ciudad y el mar.",
     img: [
-    "img/02.jpg"
+    "img/02-01.jpg"
 ]
   },
   {
@@ -514,51 +558,24 @@ proyectos.forEach(p => {
 
 fila.addEventListener("mouseenter", () => {
 
-    /* Obtener la primera imagen */
     const imagenHover = Array.isArray(p.img)
         ? p.img[0]
         : p.img;
 
     if (imagenHover && imagenHover.trim() !== "") {
-
         previewImg.src = imagenHover;
-
-        const rect = fila.getBoundingClientRect();
-
-        /* Mantener la imagen centrada */
-        preview.style.left = "50%";
-
-        /* Posición inicial: debajo de la fila */
-        preview.style.top = `${rect.bottom + 5}px`;
-
-        /* Mostrar temporalmente para calcular altura */
-        preview.style.opacity = 0;
-
-        requestAnimationFrame(() => {
-
-            const alturaImagen = preview.offsetHeight;
-            const espacioAbajo = window.innerHeight - rect.bottom;
-
-            /* Si cabe debajo */
-            if (espacioAbajo >= alturaImagen + 5) {
-
-                preview.style.top = `${rect.bottom + 5}px`;
-
-            /* Si no cabe, colocar encima */
-            } else {
-
-                preview.style.top = `${rect.top - alturaImagen - 5}px`;
-
-            }
-
-            preview.style.opacity = 1;
-
-        });
-
+        preview.style.opacity = 1;
     }
 
 });
 
+fila.addEventListener("mousemove", (e) => {
+
+    /* La imagen sigue al cursor */
+    preview.style.left = `${e.clientX}px`;
+    preview.style.top = `${e.clientY}px`;
+
+});
 
 fila.addEventListener("mouseleave", () => {
 
@@ -863,7 +880,6 @@ function obtenerImagenes(p) {
 
 
     /* Si img es un array */
-
     if (Array.isArray(p.img)) {
 
         return p.img.filter(
@@ -874,7 +890,6 @@ function obtenerImagenes(p) {
 
 
     /* Si img es una única imagen */
-
     if (
         typeof p.img === "string" &&
         p.img.trim() !== ""
@@ -917,35 +932,24 @@ function abrirProyecto(p) {
 
 
     /* Nombre */
-
     proyectoNombre.textContent = p.nombre;
 
-
     /* Primera imagen */
-
     proyectoImg.src =
         imagenes[imagenActual];
 
     proyectoImg.alt =
         p.nombre;
 
-
     /* Mostrar pantalla */
-
     proyectoView.style.display = "block";
 
-
     /* Ocultar preview del listado */
-
     if (preview) {
-
         preview.style.opacity = 0;
-
     }
 
-
     /* Bloquear scroll */
-
     document.body.style.overflow = "hidden";
 
 }
@@ -961,26 +965,17 @@ function cerrarProyecto() {
         return;
     }
 
-
     /* Ocultar pantalla */
-
     proyectoView.style.display = "none";
 
-
     /* Limpiar imagen */
-
     proyectoImg.src = "";
 
-
     /* Reiniciar */
-
     proyectoActual = null;
-
     imagenActual = 0;
 
-
     /* Recuperar scroll */
-
     document.body.style.overflow = "";
 
 }
@@ -996,26 +991,21 @@ function cambiarImagen(direccion) {
         return;
     }
 
-
     const imagenes =
         obtenerImagenes(proyectoActual);
 
-
     /* Si solo hay una imagen */
-
     if (imagenes.length <= 1) {
         return;
     }
 
 
     /* Cambiar posición */
-
     imagenActual += direccion;
 
 
     /* Si llegamos al final,
        volver a la primera */
-
     if (
         imagenActual >= imagenes.length
     ) {
@@ -1027,7 +1017,6 @@ function cambiarImagen(direccion) {
 
     /* Si estamos antes de la primera,
        ir a la última */
-
     if (imagenActual < 0) {
 
         imagenActual =
@@ -1037,7 +1026,6 @@ function cambiarImagen(direccion) {
 
 
     /* Cambiar imagen */
-
     proyectoImg.src =
         imagenes[imagenActual];
 
@@ -1053,20 +1041,16 @@ document
     .forEach(fila => {
 
         /* Buscar el proyecto correspondiente */
-
         const nombre =
             fila.querySelector(".col-nombre p");
-
         if (!nombre) {
             return;
         }
-
 
         const proyecto =
             proyectos.find(
                 p => p.nombre === nombre.textContent
             );
-
 
         if (!proyecto) {
             return;
@@ -1074,7 +1058,6 @@ document
 
 
         fila.addEventListener("click", (e) => {
-
             /* Si se pulsa un enlace,
                no abrir el proyecto */
 
@@ -1082,11 +1065,8 @@ document
                 return;
             }
 
-
             abrirProyecto(proyecto);
-
         });
-
     });
 
 
@@ -1095,19 +1075,15 @@ document
 ===================================================== */
 
 if (proyectoSalir) {
-
     proyectoSalir.addEventListener(
         "click",
         (e) => {
-
             e.stopPropagation();
-
             cerrarProyecto();
-
         }
     );
-
 }
+
 
 /* =====================================================
    CURSOR DE NAVEGACIÓN
@@ -1115,33 +1091,51 @@ if (proyectoSalir) {
 
 if (proyectoView) {
 
-    proyectoView.addEventListener("mousemove", (e) => {
+    proyectoView.addEventListener("mousemove", function (e) {
 
+        // Si no hay ningún proyecto abierto
         if (!proyectoActual) {
+            proyectoView.classList.remove(
+                "cursor-izquierda",
+                "cursor-derecha"
+            );
             return;
         }
 
-        const imagenes =
-            obtenerImagenes(proyectoActual);
+        const imagenes = obtenerImagenes(proyectoActual);
 
-        /* Si solo hay una imagen, cursor normal */
-
+        // Si el proyecto solo tiene una imagen
         if (imagenes.length <= 1) {
-            proyectoView.style.cursor = "default";
+            proyectoView.classList.remove(
+                "cursor-izquierda",
+                "cursor-derecha"
+            );
             return;
         }
 
-        /* Mitad izquierda → anterior */
-
+        // Mitad izquierda: imagen anterior
         if (e.clientX < window.innerWidth / 2) {
-            proyectoView.style.cursor = "w-resize";
+
+            proyectoView.classList.remove("cursor-derecha");
+            proyectoView.classList.add("cursor-izquierda");
+
+        // Mitad derecha: imagen siguiente
+        } else {
+
+            proyectoView.classList.remove("cursor-izquierda");
+            proyectoView.classList.add("cursor-derecha");
+
         }
 
-        /* Mitad derecha → siguiente */
+    });
 
-        else {
-            proyectoView.style.cursor = "e-resize";
-        }
+    // Al salir de la vista del proyecto, eliminamos las clases
+    proyectoView.addEventListener("mouseleave", function () {
+
+        proyectoView.classList.remove(
+            "cursor-izquierda",
+            "cursor-derecha"
+        );
 
     });
 
@@ -1160,57 +1154,41 @@ if (proyectoView) {
         (e) => {
 
             /* No hacer nada si se pulsa Salir */
-
             if (
                 e.target === proyectoSalir ||
                 e.target.closest("#proyecto-salir")
             ) {
-
                 return;
-
             }
-
 
             if (!proyectoActual) {
                 return;
             }
 
-
             const imagenes =
                 obtenerImagenes(proyectoActual);
 
-
             /* Si solo hay una imagen,
                no hacer nada */
-
             if (imagenes.length <= 1) {
                 return;
             }
 
-
             /* Mitad izquierda */
-
             if (
                 e.clientX <
                 window.innerWidth / 2
             ) {
 
                 cambiarImagen(-1);
-
             }
-
 
             /* Mitad derecha */
-
             else {
-
                 cambiarImagen(1);
-
             }
-
         }
     );
-
 }
 
 
@@ -1226,31 +1204,19 @@ document.addEventListener(
             return;
         }
 
-
         /* ESC → Salir */
-
         if (e.key === "Escape") {
-
             cerrarProyecto();
-
         }
-
 
         /* ← → */
-
         if (e.key === "ArrowLeft") {
-
             cambiarImagen(-1);
-
         }
-
 
         if (e.key === "ArrowRight") {
-
             cambiarImagen(1);
-
         }
-
     }
 );   
 
@@ -1270,11 +1236,8 @@ window.addEventListener("load", () => {
     */
 
     setTimeout(() => {
-
         loader.classList.add("oculto");
-
         document.body.classList.add("cargado");
-
     }, 600);
 
 });

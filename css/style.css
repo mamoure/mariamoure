@@ -134,12 +134,13 @@ a:active {
   padding-top: 2vw;
 }
 
-/* ARCHIVO */
 
+/* ARCHIVO */
 #archivo {
   min-height: 100vh;
   box-sizing: border-box;
 }
+
 
 /* TAGS */
 #tags-panel {
@@ -176,7 +177,6 @@ a:active {
 }
 
 
-
 /* TABLA */
 .tabla {
   z-index: 2;
@@ -193,13 +193,11 @@ a:active {
     cursor: pointer;
 }
 
-
 /* COLUMNA 1 — COORDENADAS */
 .col-coordenadas {
     grid-column: 1;
     padding-right: 1vw;
 }
-
 
 /* COLUMNA 2 — NOMBRE */
 .col-nombre {
@@ -207,20 +205,17 @@ a:active {
     padding-right: 0.5vw;
 }
 
-
 /* COLUMNA 3 — TEMA */
 .col-tema {
     grid-column: 3;
     padding-right: 0.5vw;
 }
 
-
 /* COLUMNA 4 — SERVICIOS */
 .col-servicios {
     grid-column: 4;
     padding-right: 0.5vw;
 }
-
 
 /* COLUMNA 5 — TOOLBOX */
 .col-toolbox {
@@ -241,7 +236,6 @@ a:active {
 }
 
 
-
 /* TEXTO ENCABEZADO TABLA */
 .header p {
   font-family: 'NeueHaasMedium';
@@ -250,6 +244,7 @@ a:active {
   margin: 0; /* elimina margen de <p> por defecto */
   padding: 0vw 0vw 0vw 0vw;
 }
+
 
 /* TEXTO TABLA */
 .fila:not(.header) p {
@@ -274,28 +269,25 @@ a:active {
 
 /* IMAGEN FLOTANTE */
 #preview {
-  position: fixed;
-  width: 30vw;
-  height: auto;
-  left: 50%;
-  opacity: 0;
-  pointer-events: none;
-  transform: translateX(-50%);
-  transition: opacity 0.3s ease;
-  z-index: 10;
+    position: fixed;
+    width: 20vw;
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+    z-index: 10;
 }
 
 #preview img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 
-
 /* INFORMACION */
-
 #informacion {
   scroll-margin-top: 0;
 }
@@ -314,36 +306,30 @@ a:active {
 .informacion-texto {
   grid-column: 1 / 10;
   grid-row: 1;
-  
-  font-family: 'Pangaia', sans-serif;
+   font-family: 'Pangaia', sans-serif;
   font-weight: 200;
   font-size: 25px;
   font-style: italic;
   color: white;
   letter-spacing: 0.05em;
   line-height: 1.4;
-  
-  margin: 0;
+    margin: 0;
   padding: 0;
 }
 
 
 /* CONTACTO */
-
 .contacto {
   grid-column: 1 / 10;
   grid-row: 2;
-  
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  
   padding: 0;
   margin: 0;
 }
 
 
 /* LOCALIZACIÓN */
-
 .contacto-localizacion {
   grid-column: 1 / 3;
 }
@@ -357,7 +343,6 @@ a:active {
 
 
 /* EMAIL */
-
 .contacto-email {
   grid-column: 3 / 5;
 }
@@ -370,8 +355,7 @@ a:active {
 }
 
 
-/* LINKEDIN */
-
+/* ENLACES - LINKEDIN */
 .contacto-enlaces {
   grid-column: 5 / 7;
 }
@@ -383,8 +367,7 @@ a:active {
   margin: 0;
 }
 
-/* LINKEDIN */
-
+/* DISEÑO WEB  */
 .contacto-web {
   grid-column: 7 / 10;
 }
@@ -395,7 +378,6 @@ a:active {
   color: white;
   margin: 0;
 }
-
 
 
 /* =====================================================
@@ -455,7 +437,6 @@ a:active {
 
 
 /* Retícula del loader */
-
 #loader .reticula {
   position: absolute;
 
@@ -470,7 +451,6 @@ a:active {
 
 
 /* Cuando termina la carga */
-
 #loader.oculto {
   opacity: 0;
   visibility: hidden;
@@ -479,7 +459,6 @@ a:active {
 
 
 /* El contenido empieza invisible */
-
 body > .intro,
 body > #archivo,
 body > #informacion,
@@ -490,7 +469,6 @@ body > #preview {
 
 
 /* Después del loader */
-
 body.cargado > .intro,
 body.cargado > #archivo,
 body.cargado > #informacion,
@@ -509,8 +487,6 @@ body.en-informacion .informacion {
 }
 
 
-
-
 /* =================================================
    VISTA DEL PROYECTO
 ================================================= */
@@ -521,81 +497,80 @@ body.en-informacion .informacion {
     left: 0;
     width: 100vw;
     height: 100vh;
-
     background: white;
-
     z-index: 1000;
-
     display: none;
-
     overflow: hidden;
-
-        cursor: default;
+    cursor: default;
 }
 
 
 /* Nombre del proyecto */
-
 #proyecto-nombre {
     position: absolute;
-
     top: 2vw;
     left: 2vw;
-
     z-index: 1002;
-
     font-family: 'NeueHaasMedium';
     font-size: 14px;
-
     color: black;
-
     margin: 0;
 }
 
 
 /* Salir */
-
 #proyecto-salir {
     position: absolute;
-
     top: 2vw;
     right: 2vw;
-
     z-index: 1002;
-
     font-family: 'NeueHaasMedium';
     font-size: 14px;
-
     color: black;
-
     cursor: pointer;
-
     margin: 0;
+}
+
+#proyecto-salir:hover {
+    text-decoration: underline;
 }
 
 
 /* Contenedor de la imagen */
-
 #proyecto-imagen {
     width: 100vw;
     height: 100vh;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
-
 }
 
 
 /* Imagen */
-
 #proyecto-img {
     width: 80vw;
     height: 80vh;
-
     object-fit: contain;
-
     display: block;
 }
+
+
+
+/* =================================================
+   CURSORES DE NAVEGACIÓN
+================================================= */
+
+#proyecto-view.cursor-izquierda {
+    cursor: url('../img/arrow-left.png') 16 16, w-resize;
+}
+
+#proyecto-view.cursor-derecha {
+    cursor: url('../img/arrow-right.png') 16 16, e-resize;
+}
+
+/* El botón Salir mantiene el cursor de interacción */
+#proyecto-salir {
+    cursor: pointer;
+}
+
+
