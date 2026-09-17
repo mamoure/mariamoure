@@ -9,7 +9,9 @@ const proyectos = [
     año: "2026",
     equipo: "",
     descripcion: "Mapa web interactivo que cartografía los espacios destinados a la práctica del ajedrez en Santiago de Compostela. El proyecto incluye la digitalización y estructuración de una base de datos geográfica, el diseño de un mapa impreso y el desarrollo de una herramienta web interactiva para facilitar la localización y consulta de estos espacios.",
-    img: ""
+    img: [
+
+]
   },
   {
     codigo: "22.",
@@ -20,7 +22,7 @@ const proyectos = [
     toolbox: "Análisis de datos, Cartografía, Metodología participativa",
     año: "2026",
     equipo: "Consell Comarcal Baix Llobregat, TECHfriendly",
-    descripcion: "La Agenda Urbana del Baix Llobregat es un instrumento de planificación estratégica comarcal, alineado con la Agenda 2030, la Agenda Urbana Española y la Agenda de los Pueblos y Ciudades de Cataluña. Define un marco de actuación a largo plazo para avanzar hacia un territorio más sostenible, inclusivo y resiliente, e identifica proyectos estratégicos para el desarrollo de la comarca.",
+    descripcion: "La Agenda Urbana del Baix Llobregat es un instrumento de planificación estratégica comarcal, alineado con la Agenda 2030, la Agenda Urbana Española y la Agenda dels pobles i ciutats de Catalunya. Define un marco de actuación a largo plazo para avanzar hacia un territorio más sostenible, inclusivo y resiliente, e identifica proyectos estratégicos para el desarrollo de la comarca.",
     img: [
     "img/22-01.png",
     "img/22-02.png",
@@ -206,10 +208,11 @@ const proyectos = [
     descripcion: "Badalona Estrategia 2030 establece un marco estratégico para orientar la transformación del municipio hacia un modelo urbano más sostenible, resiliente e inclusivo. Siguiendo la metodología de la Agenda Urbana Española, el proyecto realiza un diagnóstico transversal basado en sus 10 objetivos estratégicos e identifica los principales retos y ámbitos de actuación para el desarrollo futuro de la ciudad.",
     img: [
     "img/10-01.png",
-    "img/10-02.gif",
-    "img/10-03.png",
+    "img/10-02.png",
+    "img/10-03.gif",
     "img/10-04.png",
-    "img/10-05.png"
+    "img/10-05.png",
+    "img/10-06.png"
 ]
   },
   {
@@ -285,8 +288,9 @@ const proyectos = [
     descripcion: "Prioridades Invertidas analiza la caminabilidad del área metropolitana de Barcelona para promover una movilidad más activa y sostenible. El proyecto desarrolla un indicador que relaciona el espacio destinado a peatones con el reservado al tráfico, permitiendo identificar las calles que priorizan cada modo de movilidad. La herramienta facilita el análisis urbano y la toma de decisiones para mejorar la accesibilidad, seguridad y sostenibilidad.",
     img: [
     "img/05-01.png",
-    "img/05-02.gif",
-    "img/05-03.png"
+    "img/05-02.png",
+    "img/05-03.gif",
+    "img/05-04.png"
 ]
   },
   {
